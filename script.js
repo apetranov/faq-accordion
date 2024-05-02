@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         p1.style.display = "block";
         p2.style.display = "none";
         p3.style.display = "none";
-        p4.style.dusplay= "none";
+        p4.style.display= "none";
         
         plus2.style.display = "block";
         plus3.style.display = "block";
