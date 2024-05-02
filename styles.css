@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url(assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+    body {
+        background-image: url(assets/images/background-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.centered-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#minus1, #minus2, #minus3, #minus4 {
+    display: none;
+}
+
+
+/* Define the sliding animation */
+@keyframes slideIn {
+    from {
+      height: 0;
+      opacity: 0;
+    }
+    to {
+      height: auto;
+      opacity: 1;
+    }
+  }
+  
+  .text-content {
+    overflow: hidden;
+  }
+  
+  .slide-in-animation {
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
