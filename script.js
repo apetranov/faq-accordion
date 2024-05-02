@@ -17,6 +17,17 @@ document.addEventListener("DOMContentLoaded", function() {
         minus1.style.display = "block";
         plus1.style.display = "none";
         p1.style.display = "block";
+        p2.style.display = "none";
+        p3.style.display = "none";
+        p4.style.dusplay= "none";
+        
+        plus2.style.display = "block";
+        plus3.style.display = "block";
+        plus4.style.display = "block";
+
+        minus2.style.display = "none";
+        minus3.style.display = "none";
+        minus4.style.display = "none";
     })
 
     minus1.addEventListener("click", function() {
@@ -29,6 +40,17 @@ document.addEventListener("DOMContentLoaded", function() {
         minus2.style.display = "block";
         plus2.style.display = "none";
         p2.style.display = "block";
+        p1.style.display = "none";
+        p3.style.display = "none";
+        p4.style.display = "none";
+
+        plus1.style.display = "block";
+        plus3.style.display = "block";
+        plus4.style.display = "block";
+
+        minus1.style.display = "none";
+        minus3.style.display = "none";
+        minus4.style.display = "none";
     })
 
     minus2.addEventListener("click", function() {
@@ -41,6 +63,17 @@ document.addEventListener("DOMContentLoaded", function() {
         minus3.style.display = "block";
         plus3.style.display = "none";
         p3.style.display = "block";
+        p1.style.display = "none";
+        p2.style.display = "none";
+        p4.style.display = "none";
+
+        plus1.style.display = "block";
+        plus2.style.display = "block";
+        plus4.style.display = "block";
+
+        minus1.style.display = "none";
+        minus2.style.display = "none";
+        minus4.style.display = "none";
     })
 
     minus3.addEventListener("click", function() {
@@ -53,6 +86,17 @@ document.addEventListener("DOMContentLoaded", function() {
         minus4.style.display = "block";
         plus4.style.display = "none";
         p4.style.display = "block";
+        p1.style.display = "none";
+        p2.style.display = "none";
+        p3.style.display = "none";
+
+        plus1.style.display = "block";
+        plus2.style.display = "block";
+        plus3.style.display = "block";
+
+        minus1.style.display = "none";
+        minus2.style.display = "none";
+        minus3.style.display = "none";
     })
 
     minus4.addEventListener("click", function() {

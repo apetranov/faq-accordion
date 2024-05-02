@@ -1,3 +1,15 @@
+.container {
+  width: 100%;
+}
+@media (max-width: 640px) { /* Adjust the breakpoint as needed */
+  .container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: calc(100vh - 20px); /* Adjust height to fit the screen, considering padding */
+  }
+}
+
+
 @media (max-width: 768px) {
     body {
         background-image: url(assets/images/background-pattern-mobile.svg);
